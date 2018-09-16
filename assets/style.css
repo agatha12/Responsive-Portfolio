@@ -1,0 +1,146 @@
+body {
+   box-sizing: border-box;
+   margin: 0 auto;
+}
+
+.navlinks {
+    float: right;
+    padding: 10px;
+    color: teal;
+    padding-top: 20px;
+    margin-top:50px;
+}
+
+header {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+ 
+
+#name{
+    background-color: teal;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.content {
+    background-color: white; 
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#pagename {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.p {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image1 {
+    height:250px;
+    width:250px;
+    border: 20px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section1 {
+    /* background-color: lightgoldenrodyellow;  */
+    background-image: url(../images/light-veneer.png);
+    height: 700px;
+    border: 100px;
+    border-color: black;
+    
+}
+
+.line1 {
+    height: 5px;
+    background-color: grey;
+}
+
+.line2 {
+    height: 5px;
+    background-color: grey;
+    width: 960px;
+}
+
+.line3 {
+    height: 5px;
+    background-color: teal;
+}
+
+.line4 {
+    height: 50px;
+    background-color: grey;
+}
+
+
+#input1 {
+    width: 900px;
+}
+
+#input2 {
+    width: 900px;
+}
+
+#contentp {
+    height: 500px;
+}
+
+#cheesypoofgame {
+    margin:20px;
+}
+
+#cheesypoofpic {
+    width:200px;
+    height:200px;
+}
+
+#unicorngame {
+    position: relative;
+    margin:20px;
+
+}
+
+#unicornpic {
+    z-index: -1;
+}
+
+#unicorngametag {
+    color: white;
+    background-color: teal;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    position: absolute;
+    right:0%;
+    top: -70px;
+}
+
