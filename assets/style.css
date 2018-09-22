@@ -70,10 +70,8 @@ header {
 
 .section1 {
     /* background-color: lightgoldenrodyellow;  */
-    background-image: url(../images/light-veneer.png);
+    background-image: url(../assets/images/light-veneer.png);
     height: 700px;
-    border: 100px;
-    border-color: black;
     
 }
 
@@ -143,4 +141,96 @@ header {
     right:0%;
     top: -70px;
 }
+
+  @media screen and (max-width: 980px) {
+    .content {
+        width: 75%;
+        padding: 20px;
+        margin-left: 5%;
+        margin-bottom:5%;
+        }
+        header {
+            width: 100%;
+        }
+        #name{
+            margin: 10px;
+        }
+        #image1 {
+            height:200px;
+            width:200px;
+        }
+        .line2 {
+            width: 90%;
+        }
+        #input1 {
+            width: 90%;
+        }
+        
+        #input2 {
+            width: 90%;
+        }
+        #message {
+            width: 90%;
+        }
+        .section1 {
+            height: 90%;
+        
+      }
+
+  @media screen and (max-width: 768px) {
+    .content {
+        width: 85%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .navlinks {
+        margin-top:20px;
+    }
+
+    #name{
+        padding-top: 20px;
+        margin: 0px;
+        margin-left: 5%;
+    }
+
+  }
+  @media screen and (max-width: 640px) {
+   
+    #name{
+        width: 100%;
+        margin-left:0%;
+        text-align: center;
+        position: fixed;
+    }
+    .navlinks {
+        background-color: white;
+        float: left;
+        margin-top: 100px;
+        font-size: 22px;
+
+    }
+    #navlinks {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+    }
+    #pagename {
+        width:200px;
+    }
+    #contactlink {
+        margin-left: 25%;
+    }
+    .content {
+        margin-top:140px;
+
+    }
+    #unicornpic {
+        margin-top: 20px;
+    }
+    #cheesypoofpic {
+        margin-top: 20px;
+    }
+   
+
+  }
 
